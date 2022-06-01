@@ -1613,6 +1613,8 @@ section {
   }
 }
 
-#john{
-  border-radius: 8px;
+@media only screen and (max-width: 480px) {
+  #john {
+    width: 100%;
+  }
 }
